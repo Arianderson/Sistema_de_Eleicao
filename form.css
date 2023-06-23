@@ -1,0 +1,49 @@
+.center .campo {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.center .campo input {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: inherit;
+  border: 2px solid blue;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.center .campo:last-child {
+  margin-bottom: 0;
+}
+
+.center .campo label {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  font-family: sans-serif;
+}
+
+.center .campo input:focus ~ label,
+.center .campo input:valid ~ label {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+.center .campo [type="submit"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+
+.center .campo:active [type="submit"] {
+  background-color: royalblue;
+}

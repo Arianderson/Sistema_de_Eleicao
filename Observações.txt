@@ -1,0 +1,9 @@
+O aplicativo Web está dividido em telas descritivas, com uma tela principal e subtelas.
+
+As ações dos botões estão em javascript para melhor prototipagem.
+
+A tela principal, quando carregada, irá comunicar-se com o gerenciador de sessão:
+ 1. Se não estiver logado, redirecionará para a tela de login;
+ 2. Se estiver logado mas não registrou voto, pedir para logar de novo caso saia;
+ 3. Se estiver logado E registrou voto, redirecionar para a tela de "voto já registrado";
+ 4. Nenhum dos votos irá ser registrado até o último ser confirmado.

@@ -1,0 +1,38 @@
+button {
+  margin: 1em auto;
+  display: block;
+  width: 12rem;
+  padding: 15px 25px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  transition: all 0.02s;
+}
+
+.botaoconfirma {
+  background-color: #4CAF50;
+  box-shadow: 0 9px #090, 0 9px 8px #00000090;
+}
+.botaovolta {
+  background-color: #AF504C;
+  box-shadow: 0 9px #900, 0 9px 8px #00000090;
+}
+
+.botaoconfirma:hover {background-color: #2e9e41;}
+.botaovolta:hover {background-color: #9e412e;}
+
+.botaoconfirma:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #060, 0 5px 3px #000;
+  transform: translateY(4px);
+}
+.botaovolta:active {
+  background-color: #8e413e;
+  box-shadow: 0 5px #600, 0 5px 3px #000;
+  transform: translateY(4px);
+}
